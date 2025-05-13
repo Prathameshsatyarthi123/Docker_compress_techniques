@@ -1,16 +1,7 @@
+# Docker_compress_techniques
 # Docker Image Optimization Techniques for Spring Boot Applications
 
 This repository demonstrates different techniques to optimize Docker image size for a Spring Boot application. The goal is to build the same application using multiple Docker strategies and compare their resulting image sizes and benefits.
-
-
----
-
-## ⚙️ How to Build
-
-### 1. Build the Spring Boot JAR
-
-```bash
-mvn clean package -DskipTests
 
 ---
 
@@ -34,4 +25,3 @@ We are using a simple Spring Boot application to explore the impact of different
 | Multi-stage Build          | ~200 MB     |
 
 ---
-
