@@ -8,4 +8,5 @@ RUN mvn clean package -DskipTests
 FROM gcr.io/distroless/java17-debian11
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
-ENTRYPOINT ["app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
+
