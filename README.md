@@ -2,6 +2,16 @@
 
 This repository demonstrates different techniques to optimize Docker image size for a Spring Boot application. The goal is to build the same application using multiple Docker strategies and compare their resulting image sizes and benefits.
 
+
+---
+
+## ⚙️ How to Build
+
+### 1. Build the Spring Boot JAR
+
+```bash
+mvn clean package -DskipTests
+
 ---
 
 ## 📌 Project Overview
